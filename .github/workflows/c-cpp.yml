@@ -16,8 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-<<<<<<< HEAD
       - run: echo " This command should be merged into main later"
-=======
       - run: echo "THIS IS A NEW TEST!"
->>>>>>> main
+      
