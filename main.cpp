@@ -1,6 +1,9 @@
-#include <iostream>
+#include <vector>
 
-int main() {
-    std::cout << "Hello github actions" << std::endl;
-    return 0;
+int sum(const std::vector<int>& numbers) {
+    int result = 0;
+    for (int num : numbers) {
+        result += num;
+    }
+    return result;
 }
